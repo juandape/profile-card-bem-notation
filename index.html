@@ -4,29 +4,77 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <div class="card">
       <div class="card__img">
-        <img src="./assets/IMG_6576.JPG" alt="selfpicture" class="card__img--circle" />
+        <img
+          src="./assets/IMG_6576.JPG"
+          alt="selfpicture"
+          class="card__img--circle"
+        />
       </div>
       <div class="card__name">
         <p>Juan David Peña</p>
-    </div>
-    <div class="card__stars">
-        <p>stars</p>
-    </div>
-    <div class="card__description">
-        <p>Fullstack developer in training. Honorific Make It Real student.
-            Practice of advanced ccs and BEM notation
+      </div>
+      <div class="card__stars">
+        <form>
+          <p class="card__stars--box">
+            <input
+              id="radio1"
+              type="radio"
+              name="estrellas"
+              value="5"
+              class="card__stars--input"
+            />
+            <label for="radio1" class="card__stars--label">★</label>
+            <input
+              id="radio2"
+              type="radio"
+              name="estrellas"
+              value="4"
+              class="card__stars--input"
+            />
+            <label for="radio2" class="card__stars--label">★</label>
+            <input
+              id="radio3"
+              type="radio"
+              name="estrellas"
+              value="3"
+              class="card__stars--input"
+            />
+            <label for="radio3" class="card__stars--label">★</label>
+            <input
+              id="radio4"
+              type="radio"
+              name="estrellas"
+              value="2"
+              class="card__stars--input"
+            />
+            <label for="radio4" class="card__stars--label">★</label>
+            <input
+              id="radio5"
+              type="radio"
+              name="estrellas"
+              value="1"
+              class="card__stars--input"
+            />
+            <label for="radio5" class="card__stars--label">★</label>
+          </p>
+        </form>
+      </div>
+      <div class="card__description">
+        <p>
+          Fullstack developer in training. Honorific Make It Real student.
+          Practice of advanced ccs and BEM notation
         </p>
-    </div>
-    <div class="card__button">
+      </div>
+      <div class="card__button">
         <button class="card__button--theme">Read More</button>
         <button class="card__button--theme">Contact</button>
-    </div>
+      </div>
     </div>
   </body>
 </html>
